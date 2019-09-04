@@ -1,5 +1,0 @@
-C:\Users\mahsu\source\repos\XYZContacts\Deneme\bin\Debug\Deneme.dll
-C:\Users\mahsu\source\repos\XYZContacts\Deneme\bin\Debug\Deneme.pdb
-C:\Users\mahsu\source\repos\XYZContacts\Deneme\obj\Debug\Deneme.csproj.CoreCompileInputs.cache
-C:\Users\mahsu\source\repos\XYZContacts\Deneme\obj\Debug\Deneme.dll
-C:\Users\mahsu\source\repos\XYZContacts\Deneme\obj\Debug\Deneme.pdb
