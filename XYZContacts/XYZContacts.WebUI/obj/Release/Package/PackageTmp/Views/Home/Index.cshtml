@@ -1,0 +1,32 @@
+﻿@model List<XYZContacts.Entities.Employee>
+@using GridMvc.Html
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+
+<div id="jumbotron" class="jumbotron jumbotron-fluid mt-5">
+    <div class="container" style="color:white; ">
+        <h1 class="display-4">Contacts to  XYZ Company Employees</h1>
+        <hr>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto provident veritatis et officiis nisi ab.</p>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa doloremque eius atque fuga deserunt quisquam error maiores consectetur, modi odio!</p>
+    </div>
+</div>
+
+<div class="container">
+    @Html.Grid(Model).Columns(column =>
+{
+   column.Add(m => m.Name).Titled("Name").Sortable(true).Filterable(true);
+   column.Add(m => m.Surname).Titled("Surname").Sortable(true).Filterable(true);
+   column.Add(m => m.PhoneNumbersI).Titled("Phone Numbers I").Sortable(true).Filterable(true);
+   column.Add(m => m.Department.DepartmentName).Titled("Departmen").Sortable(true).Filterable(true);
+   column.Add().Encoded(false).Sanitized(false).SetWidth(30).RenderValueAs(o => Html.ActionLink("Detay", "Details", "Home", new { id = o.Id }, new { @class = "btn btn-primary" }));
+
+}).WithPaging(20)
+</div>
+
+
+

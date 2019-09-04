@@ -1,0 +1,16 @@
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.DataAccessLayer\bin\Release\XYZContacts.DataAccessLayer.dll.config
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.DataAccessLayer\bin\Release\XYZContacts.DataAccessLayer.dll
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.DataAccessLayer\bin\Release\XYZContacts.DataAccessLayer.pdb
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.DataAccessLayer\bin\Release\EntityFramework.dll
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.DataAccessLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.DataAccessLayer\bin\Release\FakeData.dll
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.DataAccessLayer\bin\Release\XYZContacts.Entities.dll
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.DataAccessLayer\bin\Release\XYZContacts.Entities.pdb
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.DataAccessLayer\bin\Release\EntityFramework.xml
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.DataAccessLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.DataAccessLayer\bin\Release\FakeData.pdb
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.DataAccessLayer\obj\Release\XYZContacts.DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.DataAccessLayer\obj\Release\XYZContacts.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.DataAccessLayer\obj\Release\XYZContacts.DataAccessLayer.csproj.CopyComplete
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.DataAccessLayer\obj\Release\XYZContacts.DataAccessLayer.dll
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.DataAccessLayer\obj\Release\XYZContacts.DataAccessLayer.pdb

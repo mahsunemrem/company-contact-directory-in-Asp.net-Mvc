@@ -1,0 +1,5 @@
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.Entities\bin\Release\XYZContacts.Entities.dll
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.Entities\bin\Release\XYZContacts.Entities.pdb
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.Entities\obj\Release\XYZContacts.Entities.csproj.CoreCompileInputs.cache
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.Entities\obj\Release\XYZContacts.Entities.dll
+C:\Users\mahsu\source\repos\XYZContacts\XYZContacts.Entities\obj\Release\XYZContacts.Entities.pdb

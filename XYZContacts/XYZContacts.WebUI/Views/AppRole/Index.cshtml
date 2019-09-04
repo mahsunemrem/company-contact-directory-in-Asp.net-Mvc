@@ -1,0 +1,49 @@
+﻿@model IEnumerable<XYZContacts.Entities.AppRole>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container mt-5">
+    <h2>AppRole List</h2>
+
+    <p>
+       
+    </p>
+    <table class="table table-striped">
+        <hr />
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.RoleName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RoleLimit)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RoleName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RoleLimit)
+                </td>
+                <td>
+                    @*@Html.ActionLink("Edit", "Edit", new { id = item.ID }, new { @class = "btn btn-primary " }) 
+                    @Html.ActionLink("Details", "Details", new { id = item.ID }, new { @class = "btn btn-warning " }) 
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { @class = "btn btn-danger " })*@
+                </td>
+            </tr>
+        }
+
+    </table>
+ </div>

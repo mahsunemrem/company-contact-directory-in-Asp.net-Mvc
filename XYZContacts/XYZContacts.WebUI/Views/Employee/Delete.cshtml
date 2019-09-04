@@ -1,0 +1,115 @@
+﻿@model XYZContacts.Entities.Employee
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<div class="container mt-5">
+
+
+    <h2>Are you sure you want to delete Employee?</h2>
+
+
+    <div class="container mt-5">
+
+        <div class="row m-y-2 border p-4 ">
+            <div class="col-lg-4 pull-lg-8 text-xs-center">
+                <img src="~/Theme/img/employee.gif" class="m-x-auto img-fluid rounded-circle" alt="avatar">
+                <div class="m-3">
+                    <h1 class="m-y-2">@Model.Name @Model.Surname</h1>
+                    <h3>About</h3>
+                    <p>
+                        @Model.About
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-lg-8 push-lg-4">
+
+                <div class="tab-content p-b-3">
+                    <div class="tab-pane active" id="profile">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h2>Departmant</h2>
+                                <p>
+
+                                    <h3><span class="badge badge-success badge-lg">@Model.Department.DepartmentName</span></h3>
+                                </p>
+                                <h2>Title</h2>
+                                <p>
+                                    <h3><span class="badge badge-success badge-lg">@Model.Title.TitleName </span></h3>
+                                </p>
+                            </div>
+
+                            <div class="col-md-12">
+
+                                <table class="table table-hover table-striped">
+                                    <tbody>
+                                        
+                                        <tr>
+                                            <td>
+                                                <strong>Phone Numbers I :</strong> @Model.PhoneNumbersI
+                                            </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td>
+                                                <strong>Phone Numbers  II :</strong> @Model.PhoneNumbersII
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>Email :</strong> @Model.Email
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>Adress : </strong> deleted My Board1 in
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>Adress : </strong> deleted My Board1 in
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>Adress : </strong> deleted My Board1 in
+                                            </td>
+
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="row">
+                                
+                                    <br />
+
+                                    @using (Html.BeginForm())
+                                    {
+                                        @Html.AntiForgeryToken()
+
+                                        <div class="form-actions ">
+                                            <input type="submit" value="Delete" class="btn btn-danger btn-lg" />
+                                            @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-warning btn-lg" })
+                                        </div>
+                                    }
+                               
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>

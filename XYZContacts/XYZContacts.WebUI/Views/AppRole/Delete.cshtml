@@ -1,0 +1,51 @@
+﻿@model XYZContacts.Entities.AppRole
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<div class="container mt-5">
+    <h2>Are you sure you want to delete AppRole?</h2>
+
+
+    <div>
+
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.RoleName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.RoleName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.RoleLimit)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.RoleLimit)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Delete" class="btn btn-danger" /> 
+                @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-warning " })
+            </div>
+        }
+    </div>
+</div>

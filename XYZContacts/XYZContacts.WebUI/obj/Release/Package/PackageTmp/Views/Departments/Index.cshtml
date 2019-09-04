@@ -1,0 +1,34 @@
+﻿@model IEnumerable<XYZContacts.Entities.Department>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div class="container mt-5">
+    <h2>Department List</h2>
+   
+    <p>
+        @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-success " })
+    </p>
+    <table class="table table-striped">
+        <hr />
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DepartmentName)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ID }, new { @class = "btn btn-primary " })
+
+                    @Html.ActionLink("Details", "Details", new { id = item.ID }, new { @class = "btn btn-warning " })
+
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { @class = "btn btn-danger " })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
